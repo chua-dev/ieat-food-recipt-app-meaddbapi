@@ -9,9 +9,11 @@ const initialState = {
     isSidebarOpen: false
 };
 
+
+// Create Context
 const SidebarContext = createContext({});
 
-// Use Context Actual Action
+// Actual Use Context
 export const useSidebarContext = () => {
     return useContext(SidebarContext)
 }
